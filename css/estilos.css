@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.container {
+  border: 5px solid red; }
+
+.row {
+  border: 2px solid blue; }
+
+/* El signo > después de una etiqueta, indica que le aplique dichos estilos a las etiquetas
+directamente hijas de la etiqueta anterior */
+.row > * {
+  border: 2px solid green; }
+
+/*# sourceMappingURL=estilos.css.map */
